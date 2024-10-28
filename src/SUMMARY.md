@@ -1,4 +1,4 @@
-# The Rust Programming Language
+# Il linguaggio di programmazione Rust
 
 [The Rust Programming Language](title-page.md)
 [Foreword](foreword.md)
