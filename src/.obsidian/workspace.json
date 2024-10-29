@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "title-page.md",
+                "file": "ch00-00-introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "title-page"
+              "title": "ch00-00-introduction"
             }
           }
         ]
@@ -164,9 +164,9 @@
   },
   "active": "bf574db9c2beda46",
   "lastOpenFiles": [
-    "foreword.md",
-    "title-page.md",
     "SUMMARY.md",
+    "title-page.md",
+    "foreword.md",
     "appendix-00.md"
   ]
 }

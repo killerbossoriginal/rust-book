@@ -1,48 +1,23 @@
-# Introduction
+# Introduzione
+Benvenuto al *Linguaggio Di Programmazione Rust*, un libro introduttivo riguardo a Rust.
+Il linguaggio di programmazione Rust ti aiuta a scrivere codice più affidabile, più velocemente.
+Ergonomia di alto livello e controllo di basso livello sono spesso vantaggi nel design di linguaggi di programmazione; Rust combatte questo conflitto. Attraverso il bilanciamento di capacità tecniche e una grande esperienza di sviluppo (*development experience*), Rust ti dà l'opzione di controllare dettagli di basso livello (come l'utilizzo della memoria) senza tutti i problemi tradizionalmente associati a ciò.
+## Per chi è Rust?
+Rust è ideale per molte persone per una varietà di ragioni. Vediamo un po' dei gruppi più importanti.
 
-> Note: This edition of the book is the same as [The Rust Programming
-> Language][nsprust] available in print and ebook format from [No Starch
-> Press][nsp].
+### Team di Sviluppatori
 
-[nsprust]: https://nostarch.com/rust-programming-language-2nd-edition
-[nsp]: https://nostarch.com/
+Rust sta provando di essere uno strumento produttivo per collaborare in grandi team di sviluppatori con diversi livelli di competenza. Codice di basso livello è a rischio di vari bug subdoli, che molti altri linguaggi possono catturare solo tramite test intensivi e un controllo del codice fatto da sviluppatori con esperienza. In rust, il compilatore gioca come portiere rifiutando di compilare codice con questi bug elusivi, includendo bug di concorrenza. Lavorando assieme ad un compilatore, il gruppo piò spendere il proprio tempo concentrandosi sulla logica del programma al posto che cacciando problemi. 
 
-Welcome to *The Rust Programming Language*, an introductory book about Rust.
-The Rust programming language helps you write faster, more reliable software.
-High-level ergonomics and low-level control are often at odds in programming
-language design; Rust challenges that conflict. Through balancing powerful
-technical capacity and a great developer experience, Rust gives you the option
-to control low-level details (such as memory usage) without all the hassle
-traditionally associated with such control.
+Rust porta anche molti strumenti alla programmazione di sistemi:
 
-## Who Rust Is For
+- Cargo, il gestore di dipendenze e compilatore, gestisce la aggiunta, la compilazione, la gestione delle dipendenze, indolore e consistente per l'ecosistema Rust.
+- Lo strumento di formattazione Rustfmt che assicura uno stile consistente tra gli sviluppatori.
+- Il rust-analyzer che permette agli ambienti di sviluppo integrati (IDE) di completare il codice e di mostrare gli errori.
 
-Rust is ideal for many people for a variety of reasons. Let’s look at a few of
-the most important groups.
+Usando questi altri strumenti nell'ecosistema Rust, gli sviluppatori possono essere produttibvi mentre scrivono codice di sistema.
 
-### Teams of Developers
-
-Rust is proving to be a productive tool for collaborating among large teams of
-developers with varying levels of systems programming knowledge. Low-level code
-is prone to various subtle bugs, which in most other languages can be caught
-only through extensive testing and careful code review by experienced
-developers. In Rust, the compiler plays a gatekeeper role by refusing to
-compile code with these elusive bugs, including concurrency bugs. By working
-alongside the compiler, the team can spend their time focusing on the program’s
-logic rather than chasing down bugs.
-
-Rust also brings contemporary developer tools to the systems programming world:
-
-* Cargo, the included dependency manager and build tool, makes adding,
-  compiling, and managing dependencies painless and consistent across the Rust
-  ecosystem.
-* The Rustfmt formatting tool ensures a consistent coding style across
-  developers.
-* The rust-analyzer powers Integrated Development Environment (IDE)
-  integration for code completion and inline error messages.
-
-By using these and other tools in the Rust ecosystem, developers can be
-productive while writing systems-level code.
+--- 
 
 ### Students
 
