@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "ch00-00-introduction"
             }
+          },
+          {
+            "id": "987fa3500713553f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SUMMARY.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SUMMARY"
+            }
           }
         ]
       }
@@ -164,9 +178,10 @@
   },
   "active": "bf574db9c2beda46",
   "lastOpenFiles": [
+    "foreword.md",
     "SUMMARY.md",
     "title-page.md",
-    "foreword.md",
+    "ch00-00-introduction.md",
     "appendix-00.md"
   ]
 }
