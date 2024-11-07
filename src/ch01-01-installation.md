@@ -1,27 +1,16 @@
-## Installation
+## Installazione
+Il primo step è installare Rust. Scaricheremo Rust tramite `rustup`, uno strumento a linea di comando per gestire le gestioni di Rust e i tools associato. Dovrai avere una connessione internet per il download.
 
-The first step is to install Rust. We’ll download Rust through `rustup`, a
-command line tool for managing Rust versions and associated tools. You’ll need
-an internet connection for the download.
+> Nota: Se preferisci non usare `rustup` per qualche ragione, guarda [Altri metodi per installare rust][otherinstall]per altre opzioni.
 
-> Note: If you prefer not to use `rustup` for some reason, please see the
-> [Other Rust Installation Methods page][otherinstall] for more options.
+I prossimi passaggi installeranno l'ultima versione stabile del compilatore di Rust. La stabilità di Rust garantisce che tutti gli esempi compilabili contenuti in questo libro continueranno a essere compilabili nelle nuove versioni di Rust. L'output potrebbe essere leggermente differente perchè Rust spesso migliora i messaggi di errore e gli avvisi. In altre parole, ogni nuova versione stabile di Rust che installi dovrebbe funzionare con il contenuto di questo libro.
 
-The following steps install the latest stable version of the Rust compiler.
-Rust’s stability guarantees ensure that all the examples in the book that
-compile will continue to compile with newer Rust versions. The output might
-differ slightly between versions because Rust often improves error messages and
-warnings. In other words, any newer, stable version of Rust you install using
-these steps should work as expected with the content of this book.
+> ### Notazione della linea di comando
+> 
+> In questo capitolo e attraverso il libro, mostreremo alcuni comandi usati nel terminale. Le linee che devono essere immesse in un terminale iniziano tutte con `$`. Non devi scrivere il carattere `$`; è il prompt della linea di comando ed è mostrato per indicare l'inizio di ogni comando. Le linee che non iniziano con `$` di solito mostrano l'output del comando precedente. In aggiunta, gli esempi specifici per PowerShell useranno `>` al posto che `$`.
 
-> ### Command Line Notation
->
-> In this chapter and throughout the book, we’ll show some commands used in the
-> terminal. Lines that you should enter in a terminal all start with `$`. You
-> don’t need to type the `$` character; it’s the command line prompt shown to
-> indicate the start of each command. Lines that don’t start with `$` typically
-> show the output of the previous command. Additionally, PowerShell-specific
-> examples will use `>` rather than `$`.
+
+---
 
 ### Installing `rustup` on Linux or macOS
 
